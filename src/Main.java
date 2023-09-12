@@ -1,12 +1,12 @@
 public class Main {
     public static void changeValue(int value) {
         value = 22;
-        System.out.println("value = " + value);
     }
 
     public static void main (String[] arg) {
         int value = 33;
         changeValue(value);
+        System.out.println("value = " + value);
     }
 }
 
